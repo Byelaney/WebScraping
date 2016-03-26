@@ -3,7 +3,7 @@
 | *     |  Matches the preceding character, sub-expression, or bracketed character, 0 or more times.|   a*b*     |aaaaaa,aaabb|
 | +        |   Matches the preceding character, subexpression, or bracketed character,1 or more times   |   a+b+   |abb,ab|
 | []        |    Matches any character within the brackets (i.e., “Pick any one of these things”)    |  [A-Z]*  |APPLE|
-| ()        |    A grouped subexpression (these are evaluated first, in the “order of operations” of regular expressions)    |  (a*b)*  |b,aab|
+| ()        |    A grouped subexpression (these are evaluated first, in the “order of operations” of regular expressions)    |  (a*b)*  |b,aab|
 | {m,n}        |    Matches the preceding character, subexpression, or bracketed character between m and n times (inclusive) |  a{2,3}b{2,3}  |aabbb|
 | [^]        |    Matches any single character that is not in the brackets|  [^A-Z]*  |apple|
 | \|        |    Matches any character, string of characters, or subexpression, separated by the “I” (note that this is a vertical bar, or “pipe,” not a capital “i”)|  b(a\|i\|e)d  |bad,bid,bed|
