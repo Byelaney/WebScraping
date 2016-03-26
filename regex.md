@@ -1,3 +1,5 @@
+This is based on syntax used by Perl
+
 | Symbol(s)        | Meaning   |  Example  | Example Matches|
 | :--------:       |    :----: |  :----:   |       :----:   |
 | *     |  Matches the preceding character, sub-expression, or bracketed character, 0 or more times.|   a*b*     |aaaaaa,aaabb|
